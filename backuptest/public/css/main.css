@@ -1,0 +1,86 @@
+﻿* {padding:0; margin:0}
+html, body {width:100%; height:100%;}
+body {
+font-family:Tahoma, Geneva, sans-serif;
+font-size:12px;
+color:#000;background-color:#fff;
+/*background:url(/backuptest/public/img/image/body_sky.png) repeat-x;*/
+}
+a {text-decoration:none; outline:none; border:none; color:#333;}
+.nnav{
+background-color:#fff;
+padding:10px;
+}
+a img {border:none; outline:none;}
+.clearing {clear:both;}
+ 
+.layer {width:100%; margin-top:10px; position:relative;}
+.container {margin:0 auto; width:1000px;}
+ 
+.header {width:100%; height:80px; border:#999 1px solid; margin-bottom:10px; padding-top:20px; text-align:center;}
+.left {width:290px; float:left; border:#999 1px solid; padding:5px;}
+.left ul {margin:0; padding:0;}
+.left ul li {list-style:none;}
+.content {width:676px; float:left; border:#999 1px solid; margin-left:10px; padding:5px;}
+.footer {width:100%; height:20px; border:#999 1px solid; margin-top:10px; padding-top:5px; text-align:center;}
+
+
+
+
+/* блок для верхней навигации и регистрации */
+.menu {
+  background-color: #292c2f;
+  padding: 1.5rem 3rem;
+  height: auto; }
+  .menu .inline-list {
+    text-align: center; }
+    .menu .inline-list li {
+      float: none;
+      display: inline-block; }
+    .menu .inline-list a {
+      color: #fff;
+      padding-bottom: 0.5rem; }
+      .menu .inline-list a:hover {
+        color: #87d37c;
+        transition: all .3s ease-in-out; }
+    .menu .inline-list .active a {
+      color: #87d37c; }
+  .menu .account {
+    position: absolute;
+    top: 3%;
+    right: 3%; }
+    .menu .account a, .menu .account i {
+      color: #fff; }
+  @media only screen and (min-width: 40.063em) {
+    .menu {
+      height: 5rem; }
+      .menu .inline-list {
+        float: left;
+        margin: 0 0 0 1.5rem; }
+      .menu a:hover {
+        border-bottom: 2px solid #87d37c; } }
+  .menu .account-action {
+    float: right;
+    margin: -.75rem 0 0 0; }
+    .menu .account-action li {
+      margin-left: .2rem; }
+    .menu .account-action a {
+      padding: 0.75rem 1rem; }
+    .menu .account-action a.signup {
+      font-weight: bold;
+      background-color: #3d4146;
+      border-radius: 3px; }
+
+.name {
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 1;
+  margin: 0 0 1rem 0;
+  color: #fff; }
+  .name i {
+    color: #87d37c;
+    margin-right: 0.5rem; }
+  @media only screen and (min-width: 40.063em) {
+    .name {
+      float: left; } }
+/* окончание блока для верхней навигации и регистрации */	  
